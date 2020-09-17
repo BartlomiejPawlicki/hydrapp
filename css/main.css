@@ -326,16 +326,14 @@ body {
   display: flex;
   width: 375px;
   height: 812px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute; }
+  position: relative; }
 
 .header {
-  font-family: 'Sigmar One', cursive;
+  position: absolute;
+  width: 247px;
+  height: 51px;
+  left: 63px;
+  top: 95px;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -346,21 +344,21 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
-  color: White;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  font-family: 'Sigmar One', cursive;
+  color: White; }
 
-.hydrapp__counter-position {
+.hydrapp__counter {
   position: absolute;
-  left: 44%;
-  right: 43%;
-  top: 60.00%;
-  bottom: 57.89%;
+  left: 38.13%;
+  right: 38.4%;
+  top: 58.04%;
+  bottom: 48.89%;
   font-style: normal;
   font-weight: 500;
-  font-size: 80px;
+  font-size: 112px;
   line-height: 131px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -369,6 +367,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  color: #000000;
   font-family: 'Roboto', sans-serif; }
+
+.hydrapp {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  left: 47px;
+  top: 203px; }
 
 /*# sourceMappingURL=main.css.map */
