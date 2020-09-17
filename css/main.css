@@ -5,6 +5,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -311,12 +313,56 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
 body {
-  color: #F9C802;
-  background: #000; }
+  background: #3767AD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 375px;
+  height: 812px; }
+
+.header {
+  font-family: 'Sigmar One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 59px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: White;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.hydrapp__counter {
+  position: absolute;
+  left: 7.8%;
+  right: 38.4%;
+  top: 38.04%;
+  bottom: 57.89%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 131px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
