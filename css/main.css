@@ -368,7 +368,10 @@ body {
           align-items: center;
   text-align: center;
   color: #000000;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .hydrapp {
   position: absolute;
