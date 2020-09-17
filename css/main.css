@@ -325,7 +325,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 375px;
-  height: 812px; }
+  height: 812px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .header {
   font-family: 'Sigmar One', cursive;
