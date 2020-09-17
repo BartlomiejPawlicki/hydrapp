@@ -331,7 +331,8 @@ body {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  position: absolute; }
 
 .header {
   font-family: 'Sigmar One', cursive;
@@ -355,9 +356,8 @@ body {
   position: absolute;
   left: 44%;
   right: 43%;
-  top: 67.04%;
+  top: 60.00%;
   bottom: 57.89%;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 80px;
