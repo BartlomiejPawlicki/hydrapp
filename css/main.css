@@ -351,11 +351,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.hydrapp__counter {
+.hydrapp__counter-position {
   position: absolute;
-  left: 7.8%;
-  right: 38.4%;
-  top: 38.04%;
+  left: 44%;
+  right: 43%;
+  top: 67.04%;
   bottom: 57.89%;
   font-family: Roboto;
   font-style: normal;
