@@ -321,9 +321,6 @@ html {
 
 body {
   background: #3767AD;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 375px;
   height: 812px;
   position: relative; }
@@ -332,8 +329,8 @@ body {
   position: absolute;
   width: 247px;
   height: 51px;
-  left: 63px;
-  top: 95px;
+  left: 84px;
+  top: 93px;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -344,11 +341,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: 'Sigmar One', cursive;
-  color: White; }
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Sigmar One', cursive; }
 
 .hydrapp__counter {
   position: absolute;
@@ -384,12 +379,8 @@ body {
   position: absolute;
   width: 216px;
   height: 47px;
-  left: 30px;
-  top: 300px;
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 4px; }
+  left: 34px;
+  top: 319px; }
 
 .hydrapp__button--text {
   position: absolute;
@@ -397,7 +388,7 @@ body {
   height: 25px;
   left: 112px;
   top: 542px;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -417,7 +408,7 @@ body {
   height: 23px;
   left: 47px;
   top: 400px;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -429,6 +420,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  color: #F5E5E7; }
+  color: #F5E5E7;
+  background: #3767AD;
+  border-radius: none; }
 
 /*# sourceMappingURL=main.css.map */
