@@ -345,83 +345,83 @@ body {
   color: #FFFFFF;
   font-family: 'Sigmar One', cursive; }
 
-.hydrapp__counter {
-  position: absolute;
-  left: 38.13%;
-  right: 38.4%;
-  top: 58.04%;
-  bottom: 48.89%;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 112px;
-  line-height: 131px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  color: #000000;
-  font-family: 'Roboto', sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .hydrapp {
   position: absolute;
   width: 280px;
   height: 280px;
   left: 47px;
   top: 203px; }
-
-.hydrapp__button {
-  position: absolute;
-  width: 216px;
-  height: 47px;
-  left: 34px;
-  top: 319px; }
-
-.hydrapp__button--text {
-  position: absolute;
-  width: 151px;
-  height: 25px;
-  left: 112px;
-  top: 542px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  color: #000000; }
-
-.hydrapp__delete {
-  position: absolute;
-  width: 184px;
-  height: 23px;
-  left: 47px;
-  top: 400px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  color: #F5E5E7;
-  background: #3767AD;
-  border-radius: none; }
+  .hydrapp__add {
+    position: absolute;
+    width: 216px;
+    height: 47px;
+    left: 79px;
+    top: 531px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: #000000;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px; }
+  .hydrapp__delete {
+    position: absolute;
+    width: 184px;
+    height: 23px;
+    left: 95px;
+    top: 615px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: #F5E5E7;
+    background: #3767AD;
+    border-radius: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .hydrapp__counter {
+    position: absolute;
+    left: 38.13%;
+    right: 38.4%;
+    top: 39.04%;
+    bottom: 48.89%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 112px;
+    line-height: 131px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
 /*# sourceMappingURL=main.css.map */
