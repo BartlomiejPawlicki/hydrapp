@@ -1,16 +1,101 @@
 @import "_normalize";
 @import "_variables";
-
-
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+    background: $blue;
+    width: 375px;
+    height: 812px;
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    width: 247px;
+    height: 51px;
+    left: 84px;
+    top: 93px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Sigmar One', cursive;
+}
+
+.hydrapp {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    left: 47px;
+    top: 203px;
+    &__add {
+        position: absolute;
+        width: 216px;
+        height: 47px;
+        left: 79px;
+        top: 531px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        justify-content: center;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+    }
+    &__delete {
+        position: absolute;
+        width: 184px;
+        height: 23px;
+        left: 95px;
+        top: 615px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #F5E5E7;
+        background: #3767AD;
+        border-radius: none;
+        justify-content: center;
+    }
+    &__counter {
+        position: absolute;
+        left: 38.13%;
+        right: 38.4%;
+        top: 39.04%;
+        bottom: 48.89%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 112px;
+        line-height: 131px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+    }
 }
