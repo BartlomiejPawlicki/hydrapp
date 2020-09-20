@@ -5,7 +5,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 html {
   line-height: 1.15;
@@ -321,107 +320,75 @@ html {
 
 body {
   background: #3767AD;
-  width: 375px;
-  height: 812px;
-  position: relative; }
-
-.header {
-  position: absolute;
-  width: 247px;
-  height: 51px;
-  left: 84px;
-  top: 93px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 59px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-weight: 500px;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
-  color: #FFFFFF;
-  font-family: 'Sigmar One', cursive; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 16px; }
+
+.header {
+  font-size: 55px;
+  margin: 0 0 64px 0;
+  padding: 0; }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .hydrapp {
-  position: absolute;
   width: 280px;
   height: 280px;
-  left: 47px;
-  top: 203px; }
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 112px; }
   .hydrapp__add {
-    position: absolute;
-    width: 216px;
-    height: 47px;
-    left: 79px;
-    top: 531px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    padding: 12px;
     font-size: 18px;
-    line-height: 21px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    color: #000000;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    border: none;
     background: #FFFFFF;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px; }
+    border-radius: 4px;
+    min-width: 216px;
+    margin: 48px 0 26px; }
   .hydrapp__delete {
-    position: absolute;
-    width: 184px;
-    height: 23px;
-    left: 95px;
-    top: 615px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
     color: #F5E5E7;
-    background: #3767AD;
-    border-radius: none;
+    background: none;
+    border: none;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center;
+    min-width: 216px;
+    padding: 12px; }
   .hydrapp__counter {
     position: absolute;
-    left: 38.13%;
-    right: 38.4%;
-    top: 39.04%;
-    bottom: 48.89%;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 112px;
-    line-height: 131px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
-    color: #000000;
-    font-family: 'Roboto', sans-serif;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    padding-top: 64px;
+    color: black; }
 
 /*# sourceMappingURL=main.css.map */
